@@ -1,0 +1,40 @@
+.player-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px var(--medium) solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 14rem;
+  overflow: hidden;
+  height: 5rem;
+}
+
+.player-card * {
+  margin: 0;
+}
+
+.player-card h2 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.player-card h3 {
+  font-size: 0.8rem;
+}
+
+.player-card button {
+  color: var(--red);
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  width: fit-content;
+  margin-left: auto;
+  padding: 0.25rem;
+  outline: none;
+}
+
+.player-card button:hover {
+  color: var(--lighter-red);
+}

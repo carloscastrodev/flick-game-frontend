@@ -1,0 +1,83 @@
+.waiting-room {
+  border: 1px var(--medium) solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.waiting-room header > h2 {
+  text-align: center;
+}
+
+.waiting-room header > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.waiting-room header > div * {
+  margin: 0;
+}
+
+.waiting-room header > div h3,
+.waiting-room header > div input {
+  width: 9rem;
+}
+
+.waiting-room header > div input {
+  background: none;
+  color: inherit;
+  border-width: 0 0 1px 0;
+  outline: none;
+  transition: border-color 0.5s linear;
+  border-color: var(--medium);
+}
+
+.waiting-room header > div input:active,
+.waiting-room header > div input:focus {
+  border-color: var(--green);
+}
+
+.waiting-room header > div > button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+  height: fit-content;
+  margin-bottom: auto;
+}
+
+.waiting-room > div {
+  width: 66%;
+  min-height: 33%;
+  max-height: 60%;
+  overflow-y: auto;
+  border: 1px var(--medium) solid;
+}
+
+.waiting-room div ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.waiting-room footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  padding: 0;
+}
+
+.waiting-room footer ul a {
+  border: var(--medium) 1px solid;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

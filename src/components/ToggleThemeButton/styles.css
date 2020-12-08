@@ -1,0 +1,13 @@
+.toggle-theme-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.toggle-theme-button:hover {
+  opacity: 0.8;
+}

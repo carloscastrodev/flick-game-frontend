@@ -1,0 +1,54 @@
+.game-invite {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+  min-width: 300px;
+  height: 12rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 20px 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-invite span {
+  margin: 0 auto;
+  color: var(--lighter-red);
+}
+.game-invite h3 {
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.game-invite p {
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+}
+
+.game-invite div {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.game-invite button {
+  color: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  border: 1px var(--medium) solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 5rem;
+  margin: auto;
+  outline: none;
+}
+
+.game-invite button:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
